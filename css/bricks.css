@@ -1,0 +1,41 @@
+.Brick {
+    display:block;
+    text-align: left;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.added, .deprecated, .removed, .changed, .security, .unreleased {
+    border-width: 1px;
+    border-radius: 0.2em;
+    font-family: monospace, serif;
+    margin-right: 0.5em;
+    display: inline-block;
+    padding: 0.2em;
+    border-style: solid;
+    font-weight: bold;
+}
+.added {
+    color: forestgreen;
+    border-color: forestgreen;
+}
+.deprecated {
+    color: darkgrey;
+    border-color: darkgray;
+}
+.removed {
+    color: orange;
+    border-color: orange;
+}
+.security {
+    color: red;
+    border-color: red;
+}
+.changed {
+    color: gold;
+    border-color: gold;
+}
+.unreleased {
+    color: deepskyblue;
+    border-color: deepskyblue;
+}

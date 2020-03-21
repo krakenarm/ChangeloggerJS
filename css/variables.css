@@ -1,0 +1,22 @@
+.Variable {
+    display: inline-block;
+}
+.Variable.file, .Variable.dir, .Variable.module , .Variable.func{
+    font-family: monospace, serif;
+    border-radius: 0.2em;
+    padding: 0.1em;
+}
+.Variable.file, .Variable.dir {
+    background-color: #e6e6e6;
+    letter-spacing: 0.02em;
+    color: darkslategrey;
+}
+.Variable.module {
+    background-color: lightskyblue;
+    color: blue;
+}
+.Variable.func {
+    background-color: #e6e6e6;
+    font-style: italic;
+    font-weight: lighter;
+}
